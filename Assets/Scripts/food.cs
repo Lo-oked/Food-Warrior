@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class food : MonoBehaviour
 {
+    
     Rigidbody2D rb;
+    
 
     void Start()
     {
@@ -20,5 +22,13 @@ public class food : MonoBehaviour
             print("you failed");
             Destroy(gameObject);
         }
+       // Invoke("spawnfruit", 1);
     }
+
+    //void spawnfruit()
+    //{
+    //    var position = new Vector3(Random.Range(-10.0f, 10.0f), -5, 0);
+    //    Instantiate(gameObject, position, Quaternion.identity);
+    //}
+
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5496789592698504762}
   - component: {fileID: 8426690186478987222}
   - component: {fileID: 8444616447184908128}
-  - component: {fileID: 3934371091154130875}
+  - component: {fileID: -4295895895474692754}
   m_Layer: 0
   m_Name: pear
   m_TagString: Untagged
@@ -98,7 +98,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.15}
   serializedVersion: 2
   m_Radius: 0.71
---- !u!114 &3934371091154130875
+--- !u!114 &-4295895895474692754
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
